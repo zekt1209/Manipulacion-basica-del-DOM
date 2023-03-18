@@ -1,0 +1,12 @@
+:root {
+
+}
+
+.backgroundImage {
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}

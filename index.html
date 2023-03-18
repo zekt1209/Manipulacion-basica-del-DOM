@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curso Practivo JavaScript 2.0</title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <h1>Hello, world!!! </h1>
+    <h1>Manipulacion basica del DOM</h1>
+
+    <p id="pid">Esto es un parrafo con ID</p>
+
+    <form action="" id="form">
+        <input id="calculo1" type="text" placeholder="Escribe algo aqui" onchange="console.log('Input Changed!')">
+        <input id="calculo2" type="text" placeholder="Escribe algo aqui" value="Default Value">
+        <button id="btnCalcular">Calcular</button>  
+        <!-- onclick="btnClick()"-->
+    
+        <p id="resultado"></p>
+    </form>
+
+
     <script src="./index.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
+
